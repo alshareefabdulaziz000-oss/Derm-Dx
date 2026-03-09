@@ -91,10 +91,34 @@ cursor: pointer; transition: all .15s;
 }
 .tog:hover { border-color: var(–text); color: var(–text); }
 .tog.on {
-background: var(–sel);
-border-color: var(–sel);
-color: var(–sel-txt);
-font-weight: 600;
+background: #1a1714 !important;
+border-color: #1a1714 !important;
+color: #ffffff !important;
+font-weight: 600 !important;
+}
+.loc-btn.on {
+background: #1a1714 !important;
+border-color: #1a1714 !important;
+color: #ffffff !important;
+font-weight: 600 !important;
+}
+.dur-btn.on {
+background: #1a1714 !important;
+border-color: #1a1714 !important;
+color: #ffffff !important;
+font-weight: 600 !important;
+}
+.sym-btn.yes.on {
+background: #166534 !important;
+border-color: #166534 !important;
+color: #ffffff !important;
+font-weight: 600 !important;
+}
+.sym-btn.no.on {
+background: #991b1b !important;
+border-color: #991b1b !important;
+color: #ffffff !important;
+font-weight: 600 !important;
 }
 
 /* LOCATION GRID */
@@ -109,12 +133,6 @@ font-family: var(–ui); font-size: 13px; font-weight: 500;
 cursor: pointer; transition: all .15s;
 }
 .loc-btn:hover { border-color: var(–text); color: var(–text); }
-.loc-btn.on {
-background: var(–sel);
-border-color: var(–sel);
-color: var(–sel-txt);
-font-weight: 600;
-}
 
 /* DURATION */
 .dur-row { display: flex; gap: 8px; }
@@ -128,12 +146,6 @@ font-family: var(–ui); font-size: 13.5px; font-weight: 500;
 cursor: pointer; transition: all .15s;
 }
 .dur-btn:hover { border-color: var(–text); color: var(–text); }
-.dur-btn.on {
-background: var(–sel);
-border-color: var(–sel);
-color: var(–sel-txt);
-font-weight: 600;
-}
 
 /* SYMPTOMS GRID */
 .sym-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -153,8 +165,6 @@ background: var(–bg); color: var(–muted);
 transition: all .15s; font-family: var(–ui);
 }
 .sym-btn:hover { border-color: var(–text); color: var(–text); }
-.sym-btn.yes.on { background: var(–yes); border-color: var(–yes); color: var(–yes-txt); }
-.sym-btn.no.on  { background: var(–no);  border-color: var(–no);  color: var(–no-txt);  }
 
 /* GO BUTTON */
 .go {
